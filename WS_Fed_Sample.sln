@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS_Fed_Sample", "WS_Fed_Sample\WS_Fed_Sample.csproj", "{7F97DF1C-3012-4519-9405-428580B49FF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{87B2B5FD-5DE3-42D1-97B2-D6B6099FB6FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{842F78EA-59D2-4D3D-81C3-3AEAF5E70EB1}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{6F7342B9-0583-4FF6-BAE5-493ECB760F97}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\WSFedSample.json = PublishScripts\Templates\WSFedSample.json
+		PublishScripts\Templates\WSFedSample.param.dev.json = PublishScripts\Templates\WSFedSample.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F97DF1C-3012-4519-9405-428580B49FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F97DF1C-3012-4519-9405-428580B49FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F97DF1C-3012-4519-9405-428580B49FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F97DF1C-3012-4519-9405-428580B49FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{842F78EA-59D2-4D3D-81C3-3AEAF5E70EB1} = {87B2B5FD-5DE3-42D1-97B2-D6B6099FB6FA}
+		{6F7342B9-0583-4FF6-BAE5-493ECB760F97} = {87B2B5FD-5DE3-42D1-97B2-D6B6099FB6FA}
+	EndGlobalSection
+EndGlobal
